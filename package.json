@@ -1,0 +1,14 @@
+{
+  "name": "bw-ssh",
+  "version": "1.0.0",
+  "description": "Use Bitwarden to store ssh config and keys",
+  "main": "bw-ssh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "bw-ssh": "./bw-ssh.js"
+  }
+}
