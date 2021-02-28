@@ -1,7 +1,8 @@
 {
   "name": "bw-ssh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Bitwarden to store ssh config and keys",
+  "repository": "github:syadykin/bw-ssh",
   "main": "bw-ssh.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
