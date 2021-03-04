@@ -37,7 +37,7 @@ const getSession = async () => {
       output: process.stdout,
     });
 
-    const query = "Enter yor password: ";
+    const query = "Enter your password: ";
     rl._writeToOutput = function _writeToOutput() {
       rl.output.write(`\x1B[2K\x1B[200D${query}`);
     };
