@@ -143,6 +143,9 @@ const run = async () => {
             child.stderr.pipe(process.stderr);
             child.stdout.pipe(process.stderr);
           });
+
+          // remove key from fs by security reason
+          await fs.unlink(fileName);
         }
       }
   } catch (e) {
