@@ -39,7 +39,12 @@ const getSession = async () => {
 
     const query = "Enter your password: ";
     rl._writeToOutput = function _writeToOutput() {
-      rl.output.write(`\x1B[2K\x1B[200D${query}`);
+      rl.output.write(
+        `\x1B[2K\x1B[200D${
+          query
+        }${
+          Array.from(new Array(rl.line.length + 1)).join('*')
+        }`);
     };
 
     rl.on('SIGINT', () => {
