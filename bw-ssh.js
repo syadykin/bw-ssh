@@ -138,6 +138,7 @@ const run = async () => {
             const child = spawn("ssh-add", [fileName], {
               env: {
                 ...process.env,
+                DISPLAY: 'dummy',
                 SSH_ASKPASS: process.argv[1]
               },
             })
