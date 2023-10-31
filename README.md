@@ -46,3 +46,7 @@ After processing:
     .....
     ----END .......
 
+## Changelog
+
+### 1.0.6
+  * set SSH_ASKPASS_REQUIRE to 'force'

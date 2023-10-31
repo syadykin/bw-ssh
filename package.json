@@ -1,6 +1,6 @@
 {
   "name": "bw-ssh",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Use Bitwarden to store ssh config and keys",
   "repository": "github:syadykin/bw-ssh",
   "main": "bw-ssh.js",
